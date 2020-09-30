@@ -26,3 +26,8 @@ h2 {
     font-size: 1.15em; /* 23px / 20px = 1.5 */
     font-weight:bold;
 }
+
+h1, h2 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
