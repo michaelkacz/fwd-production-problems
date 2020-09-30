@@ -17,3 +17,7 @@ html {
     line-height: 1.25em; /* 25px / 20px = 1.25 */
     padding: 15px; /* TRBL */
 }
+
+h1 {
+    font-size: 1.20em; /* 24 / 20px = 1.2 */
+}
