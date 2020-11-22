@@ -44,7 +44,7 @@ console.log('The value of x is', x, '-- it should be 5.');
   var x = 5;
     function double(num) {
       if (typeof(num) = "number" ) {
-     let x = num * 2;
+        var x = num * 2;
       return x;
    }
     else{
