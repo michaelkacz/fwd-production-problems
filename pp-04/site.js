@@ -24,7 +24,16 @@ console.log('The value of x is', x, '-- it should be 5.');
   can accurately test your work.
 */
 
+(function() {
+  var x = 5;
+    function double(num) {
+      let x = num * 2;
+        return x;
+  }
+}
 
+  double(6);
+  console.log('The value of x is', x, '-- it should be 5.');
 /*
   Step 3. Rewrite your corrected `double()` function from Step 2.
   so that non-number values passed into the function are handled
