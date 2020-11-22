@@ -39,3 +39,19 @@ console.log('The value of x is', x, '-- it should be 5.');
   so that non-number values passed into the function are handled
   in some reasonable way.
 */
+
+(function() {
+  var x = 5;
+    function double(num) {
+      if (typeof(num) = "number" ) {
+     let x = num * 2;
+      return x;
+   }
+    else{
+     return ('That was an incorrect input.')
+   }
+  }
+
+double(6);
+console.log('The value of x is', x, '-- it should be 5.');
+})();
